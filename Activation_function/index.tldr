@@ -21,7 +21,7 @@
 			"com.tldraw.shape.bookmark": 2,
 			"com.tldraw.shape.draw": 2,
 			"com.tldraw.shape.geo": 9,
-			"com.tldraw.shape.note": 7,
+			"com.tldraw.shape.note": 8,
 			"com.tldraw.shape.line": 5,
 			"com.tldraw.shape.frame": 0,
 			"com.tldraw.shape.arrow": 5,
@@ -46,84 +46,6 @@
 			"name": "Page 1",
 			"index": "a1",
 			"typeName": "page"
-		},
-		{
-			"id": "pointer:pointer",
-			"typeName": "pointer",
-			"x": 137.58195438693485,
-			"y": 5781.035481681906,
-			"lastActivityTimestamp": 1727528992026,
-			"meta": {}
-		},
-		{
-			"followingUserId": null,
-			"opacityForNextShape": 1,
-			"stylesForNextShape": {
-				"tldraw:size": "l"
-			},
-			"brush": null,
-			"scribbles": [],
-			"cursor": {
-				"type": "default",
-				"rotation": 0
-			},
-			"isFocusMode": false,
-			"exportBackground": true,
-			"isDebugMode": false,
-			"isToolLocked": false,
-			"screenBounds": {
-				"x": 0,
-				"y": 0,
-				"w": 492,
-				"h": 702.4000244140625
-			},
-			"insets": [
-				false,
-				false,
-				true,
-				false
-			],
-			"zoomBrush": null,
-			"isGridMode": false,
-			"isPenMode": false,
-			"chatMessage": "",
-			"isChatting": false,
-			"highlightedUserIds": [],
-			"isFocused": true,
-			"devicePixelRatio": 1.25,
-			"isCoarsePointer": false,
-			"isHoveringCanvas": true,
-			"openMenus": [],
-			"isChangingStyle": false,
-			"isReadonly": false,
-			"meta": {},
-			"duplicateProps": null,
-			"id": "instance:instance",
-			"currentPageId": "page:page",
-			"typeName": "instance"
-		},
-		{
-			"editingShapeId": null,
-			"croppingShapeId": null,
-			"selectedShapeIds": [
-				"shape:mawrn55-1HhcQ_-VXUbVm"
-			],
-			"hoveredShapeId": "shape:mawrn55-1HhcQ_-VXUbVm",
-			"erasingShapeIds": [],
-			"hintingShapeIds": [],
-			"focusedGroupId": null,
-			"meta": {},
-			"id": "instance_page_state:page:page",
-			"pageId": "page:page",
-			"typeName": "instance_page_state"
-		},
-		{
-			"x": 936.2272805652016,
-			"y": -5100.218262381118,
-			"z": 0.2890643736271462,
-			"meta": {},
-			"id": "camera:page:page",
-			"typeName": "camera"
 		},
 		{
 			"x": -547.6223513687407,
@@ -669,7 +591,7 @@
 			"typeName": "shape"
 		},
 		{
-			"x": -562.2310367041435,
+			"x": -1123.8310580664483,
 			"y": 4725.534995123984,
 			"rotation": 0,
 			"isLocked": false,
@@ -680,11 +602,11 @@
 			"props": {
 				"color": "black",
 				"size": "l",
-				"w": 1848.5999755859375,
+				"w": 2410.199996948242,
 				"text": "Activation Functions - Notes\nDefinition:\n\nMathematical function applied to a neuron’s output to determine its activation.\nIntroduces non-linearity to the neural network.\nPurpose:\n\nNon-linearity: Helps the network learn complex, non-linear relationships.\nStacking layers: Enables the network to build multi-layer models and learn abstract features.\nDecision-making: Allows neurons to \"fire\" based on input, enabling the network to make decisions.\nCommon Types of Activation Functions:\n\nSigmoid:\n\n​\n \nRange: (0, 1)\nUse: Good for binary classification.\nIssue: Prone to vanishing gradients.\nTanh:\n\nFormula: \n\n \nRange: (-1, 1)\nUse: Zero-centered output, better than sigmoid in practice.\nIssue: Can still suffer from vanishing gradient problems.\nReLU (Rectified Linear Unit):\n\nFormula: \n𝑓\n(\n𝑥\n)\n=\nmax\n⁡\n(\n0\n,\n𝑥\n)\nf(x)=max(0,x)\nUse: Most commonly used in deep learning.\nAdvantage: Efficient and less prone to vanishing gradient issues.\nIssue: Can result in dead neurons if too many activations are zero.\nLeaky ReLU:\n\nFormula: \n𝑓\n(\n𝑥\n)\n=\nmax\n⁡\n(\n0.01\n𝑥\n,\n𝑥\n)\nf(x)=max(0.01x,x)\nAdvantage: Allows a small gradient for negative inputs, addressing \"dying ReLU.\"\nSoftmax:\n\nF\ne \nx \ni\n​\n \n \n​\n \nUse: Common in the output layer of multi-class classification models.\nOutput: Generates probabilities.\nWhy Activation Functions Are Needed:\n\nNon-linearity allows the network to solve complex, real-world problems.\nLayer stacking and learning feature hierarchies.\nGradient flow for effective backpropagation in learning.",
 				"font": "draw",
 				"textAlign": "start",
-				"autoSize": true,
+				"autoSize": false,
 				"scale": 1
 			},
 			"parentId": "page:page",
@@ -804,6 +726,82 @@
 			"parentId": "page:page",
 			"index": "aP9Cl",
 			"typeName": "shape"
+		},
+		{
+			"id": "pointer:pointer",
+			"typeName": "pointer",
+			"x": -1130.1147186605322,
+			"y": 6921.206218506822,
+			"lastActivityTimestamp": 1732818456087,
+			"meta": {}
+		},
+		{
+			"followingUserId": null,
+			"opacityForNextShape": 1,
+			"stylesForNextShape": {},
+			"brush": null,
+			"scribbles": [],
+			"cursor": {
+				"type": "default",
+				"rotation": 0
+			},
+			"isFocusMode": false,
+			"exportBackground": true,
+			"isDebugMode": false,
+			"isToolLocked": false,
+			"screenBounds": {
+				"x": 0,
+				"y": 0,
+				"w": 1260,
+				"h": 702.4000244140625
+			},
+			"insets": [
+				false,
+				false,
+				true,
+				false
+			],
+			"zoomBrush": null,
+			"isGridMode": false,
+			"isPenMode": false,
+			"chatMessage": "",
+			"isChatting": false,
+			"highlightedUserIds": [],
+			"isFocused": true,
+			"devicePixelRatio": 1.25,
+			"isCoarsePointer": false,
+			"isHoveringCanvas": true,
+			"openMenus": [],
+			"isChangingStyle": false,
+			"isReadonly": false,
+			"meta": {},
+			"duplicateProps": null,
+			"id": "instance:instance",
+			"currentPageId": "page:page",
+			"typeName": "instance"
+		},
+		{
+			"editingShapeId": null,
+			"croppingShapeId": null,
+			"selectedShapeIds": [
+				"shape:JIqeYo5x8Q8-gLAXk4v9k"
+			],
+			"hoveredShapeId": "shape:JIqeYo5x8Q8-gLAXk4v9k",
+			"erasingShapeIds": [],
+			"hintingShapeIds": [],
+			"focusedGroupId": null,
+			"meta": {},
+			"id": "instance_page_state:page:page",
+			"pageId": "page:page",
+			"typeName": "instance_page_state"
+		},
+		{
+			"x": 1246.91472171229,
+			"y": -6327.606181885728,
+			"z": 0.5,
+			"meta": {},
+			"id": "camera:page:page",
+			"typeName": "camera"
 		}
 	]
 }
