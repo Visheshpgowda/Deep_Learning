@@ -50,9 +50,9 @@
 		{
 			"id": "pointer:pointer",
 			"typeName": "pointer",
-			"x": 106,
-			"y": 320.8000183105469,
-			"lastActivityTimestamp": 1735318189922,
+			"x": 288.3999938964844,
+			"y": 238.40000915527344,
+			"lastActivityTimestamp": 1735318275930,
 			"meta": {}
 		},
 		{
@@ -101,12 +101,12 @@
 			"typeName": "instance"
 		},
 		{
-			"editingShapeId": "shape:olwLQ3ChefUr-OTpb1WlZ",
+			"editingShapeId": "shape:RCPeqCdvhrAZrFRtRmbNw",
 			"croppingShapeId": null,
 			"selectedShapeIds": [
-				"shape:olwLQ3ChefUr-OTpb1WlZ"
+				"shape:RCPeqCdvhrAZrFRtRmbNw"
 			],
-			"hoveredShapeId": null,
+			"hoveredShapeId": "shape:RCPeqCdvhrAZrFRtRmbNw",
 			"erasingShapeIds": [],
 			"hintingShapeIds": [],
 			"focusedGroupId": null,
@@ -190,6 +190,29 @@
 			},
 			"parentId": "page:page",
 			"index": "a3C11",
+			"typeName": "shape"
+		},
+		{
+			"x": 57.20000076293945,
+			"y": 156.60000228881836,
+			"rotation": 0,
+			"isLocked": false,
+			"opacity": 1,
+			"meta": {},
+			"id": "shape:RCPeqCdvhrAZrFRtRmbNw",
+			"type": "text",
+			"props": {
+				"color": "black",
+				"size": "m",
+				"w": 694.0750122070312,
+				"text": "Rnn can take help or the impact from the \nfuture words too from that feature feeds \nwe can design this by taking the input from the future ",
+				"font": "draw",
+				"textAlign": "start",
+				"autoSize": true,
+				"scale": 1
+			},
+			"parentId": "page:page",
+			"index": "a44kc",
 			"typeName": "shape"
 		}
 	]
