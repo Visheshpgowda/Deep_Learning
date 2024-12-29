@@ -50,9 +50,9 @@
 		{
 			"id": "pointer:pointer",
 			"typeName": "pointer",
-			"x": 72.4000015258789,
-			"y": 1535,
-			"lastActivityTimestamp": 1735415068386,
+			"x": 732.4000244140625,
+			"y": 1504.6000061035156,
+			"lastActivityTimestamp": 1735415338714,
 			"meta": {}
 		},
 		{
@@ -72,7 +72,7 @@
 			"screenBounds": {
 				"x": 0,
 				"y": 0,
-				"w": 856,
+				"w": 1318.4000244140625,
 				"h": 702.4000244140625
 			},
 			"insets": [
@@ -101,12 +101,10 @@
 			"typeName": "instance"
 		},
 		{
-			"editingShapeId": "shape:WkH1M6j-hyLDKn1Ow0Ikr",
+			"editingShapeId": null,
 			"croppingShapeId": null,
-			"selectedShapeIds": [
-				"shape:WkH1M6j-hyLDKn1Ow0Ikr"
-			],
-			"hoveredShapeId": "shape:WkH1M6j-hyLDKn1Ow0Ikr",
+			"selectedShapeIds": [],
+			"hoveredShapeId": null,
 			"erasingShapeIds": [],
 			"hintingShapeIds": [],
 			"focusedGroupId": null,
@@ -288,8 +286,8 @@
 			"props": {
 				"color": "black",
 				"size": "m",
-				"w": 374.375,
-				"text": "it is a self suprivised problem ",
+				"w": 366.13751220703125,
+				"text": "it is a self suprivised problem",
 				"font": "draw",
 				"textAlign": "start",
 				"autoSize": true,
